@@ -7,7 +7,11 @@ import (
 )
 
 func main(){
-	//do something
+	//start at root directory
+	//gather all image paths
+	//compare each image to other known images
+	//create result directory
+	//display duplicates, pointing to actual locations of two dupes in result directory
 }
 /*
 Visit every pixel, break it down into its parts: R, G, B, & A (in go: image.At(x,y).RGBA())
